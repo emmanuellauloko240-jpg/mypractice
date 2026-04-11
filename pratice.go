@@ -1,4 +1,4 @@
-package main
+/*package main
 
 import (
 	"fmt"
@@ -7,6 +7,8 @@ import (
 
 func Up(s string) []string {
 	words := strings.Fields(s)
+	fmt.Println(words)
+	fmt.Println(len(words))
 	for i, word := range words {
 		if word == "(up)" {
 			if i > 0 {
@@ -20,9 +22,9 @@ func Up(s string) []string {
 }
 
 func main() {
-	fmt.Println(rune(','))
+//	fmt.Println(rune(','))
 	fmt.Println(Up("Hello, World! (up)"))
-}
+}*/
 
 
 

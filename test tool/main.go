@@ -1,4 +1,4 @@
-package main
+/*package main
 
 import (
 	"fmt"
@@ -20,10 +20,13 @@ func main() {
 		return
 	}
 
+
 	word := string(text)
 	err = os.WriteFile(outputFile, []byte(word), 0644)
 	if err != nil {
 		fmt.Println("Error writing content to outputFile", err)
 	}
 
-}
+}*/
+package main
+	

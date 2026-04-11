@@ -1,4 +1,4 @@
-package main
+/*package main
 
 import (
 	"fmt"
@@ -26,4 +26,6 @@ func main() {
 	//	fmt.Println(strings.Title("learn)"))
 
 
-}
+}*/
+
+package main
