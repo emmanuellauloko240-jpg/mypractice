@@ -5,9 +5,17 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"mypractice/tool"
 )
 
 func ToUpper(word string) string {
+	text  := punc(word)
+	text = FixQuote(text)
+	text = convertToDecimal(word)
+	text = CapFirst(text)
+	text = ToLower(text)
+	text = ToUpper(word)
+
 	return strings.ToUpper(word)
 }
 func punc(name string) string{
@@ -73,6 +81,7 @@ func main() {
 	}
 
 	word := string(text)
+	return := tool.ToUpper(word)
 	err = os.WriteFile(outputFile, []byte(word), 0644)
 	if err != nil {
 		fmt.Println("Error writing content to outputFile", err)
